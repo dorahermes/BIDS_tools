@@ -1,0 +1,18 @@
+{
+        "type": "object",
+        "properties": {
+                "iEEGCoordinateSystem": {"type": "string","minLength": 1},
+                "iEEGCoordinateUnits": {"type": "string","minLength": 1},
+                "iEEGCoordinateProcessingDescription": {"type": "string","minLength": 1},
+                "AssociatedImage": {"type": "string","minLength": 1},
+                "AssociatedImageCoordinateSystem": {"type": "string","minLength": 1},
+                "iEEGCoordinateProcessingReference": {"type": "string"},
+                "AssociatedImageCoordinateSystemDescription": {"type": "string"}
+                    },
+        "required": [   "iEEGCoordinateSystem",
+                        "iEEGCoordinateUnits",
+                        "iEEGCoordinateProcessingDescription",
+                        "AssociatedImage",
+                        "AssociatedImageCoordinateSystem"
+                      ]
+}
